@@ -10,7 +10,6 @@ authors = ["The Gfx-rs Developers"]
 [features]
 unstable = []
 
-
 [lib]
 name = "gfx_meta"
 
@@ -30,6 +29,9 @@ version = "0.3"
 path = "src/window/glfw"
 version = "0.2"
 
+[dependencies.gfx_headless_glutin]
+path = "src/headless/glutin"
+version = "0.1"
 
 [[example]]
 name = "blend"
