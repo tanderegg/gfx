@@ -14,7 +14,7 @@
 
 [package]
 name = "gfx_headless_glutin"
-version = "0.1.0"
+version = "0.1"
 authors = ["Tim Anderegg <timothy.anderegg@gmail.com>"]
 description = "Glutin headless rendering for gfx-rs"
 homepage = "https://github.com/gfx-rs/gfx"
