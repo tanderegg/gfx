@@ -34,4 +34,4 @@ path = "../../backend/gl"
 version = ">=0.3.1"
 
 [dependencies]
-glutin = "0.7"
+glutin = { git = "https://github.com/tanderegg/glutin.git", version = "*", branch = "glx_error_fixes" }
