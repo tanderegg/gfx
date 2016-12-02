@@ -119,6 +119,8 @@ impl_formats! {
         [BufferSurface, TextureSurface, RenderSurface],
     R8_G8           : Vec2<Int, Uint, Inorm, Unorm> = [u8; 2] {0}
         [BufferSurface, TextureSurface, RenderSurface],
+    R8_G8_B8        : Vec3<Int, Uint, Inorm, Unorm> = [u8; 3] {0}
+        [BufferSurface, TextureSurface, RenderSurface],
     R8_G8_B8_A8     : Vec4<Int, Uint, Inorm, Unorm, Srgb> = [u8; 4] {8}
         [BufferSurface, TextureSurface, RenderSurface],
     R10_G10_B10_A2  : Vec4<Uint, Unorm> = u32 {2}
@@ -337,6 +339,8 @@ pub type Vec4<T> = [T; 4];
 
 /// Standard 8bits RGBA format.
 pub type Rgba8 = (R8_G8_B8_A8, Unorm);
+/// 24 bit RGB gamma transforming format
+pub type Srgb8 = (R8_G8_B8, Srgb);
 /// Standard 8bit gamma transforming RGB format.
 pub type Srgba8 = (R8_G8_B8_A8, Srgb);
 /// Standard HDR floating-point format with 10 bits for RGB components
