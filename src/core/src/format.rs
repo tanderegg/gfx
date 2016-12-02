@@ -377,6 +377,7 @@ macro_rules! impl_formats_8bit {
         impl_simple_formats! {$(
             Vec1<$ty> = $channel R8,
             Vec2<$ty> = $channel R8_G8,
+            Vec3<$ty> = $channel R8_G8_B8,
             Vec4<$ty> = $channel R8_G8_B8_A8,
         )*}
     }
