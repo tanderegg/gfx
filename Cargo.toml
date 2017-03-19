@@ -21,8 +21,8 @@ name = "gfx_app"
 [dependencies]
 log = "0.3"
 env_logger = "0.3"
-glutin = "0.7.1"
-winit = "0.5.1"
+glutin = "0.7.4"
+winit = "0.5.2"
 gfx_core = { path = "src/core", version = "0.6" }
 gfx_corell = { path = "src/corell", version = "0.1" }
 gfx = { path = "src/render", version = "0.14" }
@@ -142,7 +142,7 @@ rand = "0.3"
 genmesh = "0.4"
 noise = "0.1"
 image = "0.12.3"
-winit = "0.5"
+winit = "0.5.2"
 
 [target.x86_64-unknown-linux-gnu.dev-dependencies]
 glfw = "0.12"

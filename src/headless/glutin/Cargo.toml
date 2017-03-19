@@ -27,11 +27,11 @@ name = "gfx_headless_glutin"
 
 [dependencies.gfx_core]
 path = "../../core"
-version = "0.5"
+version = "0.6"
 
 [dependencies.gfx_device_gl]
 path = "../../backend/gl"
-version = ">=0.3.1"
+version = "0.13"
 
 [dependencies]
-glutin = { git = "https://github.com/tanderegg/glutin.git", version = "*", branch = "glx_error_fixes" }
+glutin = "0.7.4"
